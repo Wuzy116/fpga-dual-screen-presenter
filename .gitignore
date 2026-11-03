@@ -1,0 +1,22 @@
+# Local backup archives (Git keeps source files directly).
+/.backups/
+
+# TangDynasty intermediates; preserve the final programming output.
+/td_project/*_Runs/*
+!/td_project/*_Runs/best_result/
+/td_project/log/
+/td_project/out/
+
+# Local credentials and editor / operating-system metadata.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
