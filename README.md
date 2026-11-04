@@ -81,9 +81,4 @@ user_source/
 - `IP/afifo_32_16_256.*`：由 TD IP 生成器生成；`IP/sys_pll_promax_40.v`：由 TD IP 生成器生成后手工调整了 SDRAM 时钟相位。
 - HDMI 数据岛封包参考了 hdl-util/hdmi（MIT 许可），许可声明见 `audio/HDMI_REFERENCE_LICENSE.txt`。
 
-## 版本管理与备份
 
-- Git 仓库保留源码、约束、TD 工程配置，以及 `td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/` 中已有的最终烧录结果。
-- 综合、布局布线的中间数据库和日志不提交，编译时由 TD 重新生成；本地原文件不会被删除。
-- `.backups/` 用于保存本机完整 ZIP 备份，不纳入 Git 版本管理。
-- GitHub 仓库应创建为 **Private**，不要改为 Public，也不要给其他账号添加访问权限。
